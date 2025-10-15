@@ -74,6 +74,7 @@ Built with **HTML5, CSS, and JavaScript**, it’s easy to customize and ideal fo
        .then(res => res.json())
        .then(data => renderProducts(data));
 ##📁 Folder Structure
+```
 FreshFruits/
 │
 ├── index.html
@@ -103,6 +104,7 @@ FreshFruits/
 │
 └── documentation/
     └── documentation.html
+```
 ##💻 Technologies Used
 
 Frontend: HTML5, CSS, JavaScript
