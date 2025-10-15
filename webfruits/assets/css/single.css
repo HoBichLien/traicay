@@ -1,0 +1,256 @@
+
+
+/* ==========================================
+   Custom CSS for single page
+========================================== */
+:root {
+    --primary-color: #ff8c00;
+    --text-dark: #333;
+    --text-light: #666;
+    --bg-light: #f9f9f9;
+    --border-color: #e0e0e0;
+}
+
+.single-post-wrapper {
+    padding: 60px 0;
+    background-color: var(--bg-light);
+}
+
+.single-post-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+}
+
+.post-main-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.breadcrumb {
+    font-size: 14px;
+    color: var(--text-light);
+    margin-bottom: 20px;
+}
+.breadcrumb a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.post-header {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.post-detail-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 10px;
+}
+
+.post-detail-meta {
+    font-size: 14px;
+    color: var(--text-light);
+}
+
+.meta-item {
+    margin-right: 15px;
+}
+.meta-item i {
+    margin-right: 5px;
+    color: var(--primary-color);
+}
+
+.post-featured-image {
+    margin-bottom: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.post-featured-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* --- Post Body Styling --- */
+.post-body p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: var(--text-dark);
+    font-size: 16px;
+}
+
+.post-body h2, .post-body h3 {
+    color: var(--primary-color);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.post-blockquote {
+    border-left: 5px solid var(--primary-color);
+    padding: 15px 20px;
+    margin: 30px 0;
+    background-color: #fff9f2; 
+    font-style: italic;
+    color: var(--text-dark);
+    font-size: 18px;
+}
+
+.ingredient-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.ingredient-list li {
+    padding: 8px 0;
+    border-bottom: 1px dashed var(--border-color);
+    color: var(--text-dark);
+}
+.ingredient-list li::before {
+    content: "\2022";
+    color: var(--primary-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.post-share-links {
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+}
+
+.post-share-links span {
+    font-weight: 700;
+    margin-right: 15px;
+    color: var(--text-dark);
+}
+
+.post-share-links a {
+    color: white;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: opacity 0.3s;
+}
+
+.post-share-links a:hover {
+    opacity: 0.8;
+}
+
+.fa-facebook-f {
+    background-color: #0754fa;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    display: flex; 
+    justify-content: center; 
+    }
+.fa-youtube-play {
+    background-color: #e60023;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    display: flex; 
+    justify-content: center; 
+     }
+
+
+/* --- Sidebar (the next column) --- */
+.post-sidebar {
+    padding-top: 30px;
+}
+
+.sidebar-widget {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+.widget-title {
+    font-size: 20px;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+/* Search Box */
+.search-box-sing {
+    display: flex;
+}
+.search-box-sing input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+.search-box-sing button {
+    padding: 10px 15px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+/* Category & Recent Posts List */
+.category-list, .recent-posts-list {
+    list-style: none;
+    padding: 0;
+}
+
+.category-list li, .recent-posts-list li {
+    padding: 8px 0;
+    border-bottom: 1px dashed var(--border-color);
+}
+.category-list li:last-child, .recent-posts-list li:last-child {
+    border-bottom: none;
+}
+
+.category-list a, .recent-posts-list a {
+    color: var(--text-dark);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.category-list a:hover, .recent-posts-list a:hover {
+    color: var(--primary-color);
+    padding-left: 5px;
+}
+
+
+/* --- Responsive --- */
+@media (max-width: 992px) {
+    .single-post-container {
+        grid-template-columns: 1fr; 
+        gap: 20px;
+    }
+    .post-sidebar {
+        padding-top: 0;
+    }
+}
+@media (max-width: 600px) {
+    .post-main-content {
+        padding: 20px;
+    }
+    .post-detail-title {
+        font-size: 28px;
+    }
+}

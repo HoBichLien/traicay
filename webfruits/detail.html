@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detail page for Fresh Fruits -Modern HTML template for fruit shops and organic stores.">
+    <meta name="author" content="eProjectBeginner">
+    <title>DETAIL FRESH FRUITS</title>
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/shop.css">
+    <link rel="stylesheet" href="assets/css/detail.css">
+    <link rel="stylesheet" href="assets/css/note.css">
+</head>
+<body>
+     <!-- loading... -->
+     <div class="load">
+        <div class="load_logo">
+            <i class="fa fa-leaf"></i>
+        </div>
+        <h2 class="load_text">
+            Fruits <span>Fresh eProject</span>
+        </h2>
+     </div>
+
+       <!-- top bar  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div>
+                    <a href="about.html">Support</a> <small>|</small>
+                    <a href="contact.html">Contact</a> <small>|</small>
+                    <a href="contact.html">Help</a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <small>Phone:</small> <a href="">+84 1234567890</a>
+            </div>
+            <div class="col-lg-4">
+                <div class="dropdown">
+                    <a href="" class="trigger ">USD <i class="fa fa-sort-desc"></i></a>
+                    <div class="dropdown_menu">
+                        <p href="">VND</p>
+                        <a href="">RMB</a>
+                        <a href="">EURO</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="" class="trigger">User <i class="fa fa-sort-desc"></i></a>
+                    <div class="dropdown_menu">
+                        <a href="login.html">Login</a>
+                        <a href="register.html">Register</a>
+                        <a href="index.html">Logout</a>
+                    </div>
+                </div>
+            </div>
+            <div id="announcement-bar" class="announcement-bar">
+            <div class="announcement-content-container">
+                <p>
+                    ✨ **SPECIAL OFFER!** Get 15% OFF all Fruit Gift Baskets! Use code: <strong>FRUITLOVE15</strong> <i class="fa fa-gift"></i>
+                </p>
+                <button id="close-announcement" class="close-btn" aria-label="Close Announcement">
+                    <i class="fa fa-times"></i>
+                </button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+     <!-- Logo -->
+    <div class="container_logo">
+        <div class="row">
+            <div class="col-lg-4 hinh">
+                <a href="index.html">
+                    <img src="assets/images/products/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="col-lg-4 search-box">
+                <input type="text" placeholder="search looking for...">
+                <button class="search-btn"><i class="fa fa-search"></i></button>
+            </div>
+            <div class="col-lg-4 icons">
+                <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+                <a href="cart.html" class="cart">
+                    <i class="fa fa-shopping-cart " style="color: blue;"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- navbar  -->
+
+    <div class="container_nav" role="navigation">
+        <div class="row">
+            <div class="col-lg-6 cate">
+                <button id="btn-cat" aria-label="All Categories">
+                    <h4><i class="fa fa-bars "></i> All Categories</h4>
+                </button>
+                <div class="allcat" id="dropdown-cat">
+                    <div class="list_cat">
+                        <ul class="cat_bars">
+                            <li>
+                                <div class="item_cat">
+                                    <a href="">Fruit Juice</a>
+                                    <span>(12)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cat">
+                                    <a href="">Dried Fruits</a>
+                                    <span>(21)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cat">
+                                    <a href="">Fresh Fruits</a>
+                                    <span>(15)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cat">
+                                    <a href="">Fruit Gift Basket</a>
+                                    <span>(32)</span>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="nav_page">
+                    <a href="index.html">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="about.html">About Us</a>
+                    <a href="blog.html">Blog</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- slide header  -->
+
+       <div class="page-header">
+            <h1 class="page-title">Detail Page</h1>
+            <nav class="breadcrumb">
+                <ul>
+                <li><a href="index.html">Home</a><span>/</span></li>
+                <li><a href="#">Pages</a><span>/</span></li>
+                <li>Detail</li>
+                </ul>
+            </nav>
+        </div>
+
+     <!-- shop page  -->
+        <div class="container_shop_detail">
+            <div class="container_shoppage_detail">
+                <div class="row">
+                    <div class="col-lg-3 col-xl-3 shop_cate">
+                            <div class="col-xl-7 search_sort">
+                                <div class="search_box_detail">
+                                    <i class="fa fa-search"></i>
+                                    <input type="search" placeholder="Search fruits...">
+                                </div>
+                            </div>
+                        <!-- Categories Fruits -->
+                            <div class="pro_cate">
+                                <h4 style=" color: rgb(55, 0, 255);">Categories Fruits</h4>
+                                <ul class="cate_list">
+                                    <li class="cate_item">
+                                        <a href="#">
+                                        <i class="fa fa-apple"></i>
+                                        <span>Fruit Juice</span>
+                                        <span>(12)</span>
+                                        </a>
+                                    </li>
+                                    <li class="cate_item">
+                                        <a href="#">
+                                        <i class="fa fa-lemon-o"></i>
+                                        <span>Dried Fruits</span>
+                                        <span>(24)</span>
+                                        </a>
+                                    </li>
+                                    <li class="cate_item">
+                                        <a href="#">
+                                        <i class="fa fa-gift"></i>
+                                        <span>Fresh Fruits</span>
+                                        <span>(34)</span>
+                                        </a>
+                                    </li>
+                                    <li class="cate_item">
+                                        <a href="#">
+                                        <i class="fa fa-shopping-basket"></i>
+                                        <span>Fruit Gift Basket</span>
+                                        <span>(14)</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        <!-- Select By Season -->
+                            <div class="product-season" style="padding: 15px 20px;">
+                                <h4 style=" color: red;">Select By Season</h4>
+                                <div class="product-season-item">
+                                    <a href="#"><i class="fa fa-sun-o"></i> Summer <span>(3)</span></a>
+                                </div>
+                                <div class="product-season-item">
+                                    <a href="#"><i class="fa fa-snowflake-o"></i> Winter <span>(2)</span></a>
+                                </div>
+                                <div class="product-season-item">
+                                    <a href="#"><i class="fa fa-leaf"></i> All Year <span>(5)</span></a>
+                                </div>
+                            </div>
+
+                        <!-- Additional Options -->
+                            <div class="additional-product" style="padding: 15px 20px;">
+                                <h4 style=" color: red;">Additional Options</h4>
+                                <div class="additional-product-item">
+                                    <input type="radio" id="opt1" name="options">
+                                    <label for="opt1">Gift Wrapping</label>
+                                </div>
+                                <div class="additional-product-item">
+                                    <input type="radio" id="opt2" name="options">
+                                    <label for="opt2">Basket Decoration</label>
+                                </div>
+                                <div class="additional-product-item">
+                                    <input type="radio" id="opt3" name="options">
+                                    <label for="opt3">Fruit Knife</label>
+                                </div>
+                                <div class="additional-product-item">
+                                    <input type="radio" id="opt4" name="options">
+                                    <label for="opt4">Express Delivery</label>
+                                </div>
+                            </div>
+
+                        <!-- Featured Fruits -->
+                            <div class="featured-product">
+                                <h4 style="color: red;">Featured Fruits </h4>
+                                <div class="featured-product-item">
+                                    <img src="assets/images/products/le.jpg" alt="Apple">
+                                    <div>
+                                        <h6>Apple</h6>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                        <div class="price">
+                                            <del>60.000 ₫</del>
+                                            <span>50.000 ₫</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="featured-product-item">
+                                    <img src="assets/images/products/mango.jpg" alt="Mango">
+                                    <div>
+                                        <h6>Mango</h6>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                        <div class="price">
+                                            <del>80.000 ₫</del>
+                                            <span>70.000 ₫</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <!-- View More -->
+                        <div class="view-more">
+                            <div class="banner-overlay">
+                                <img src="/assets/images/banner/banner3.jpg" alt="Fresh Fruit Banner">
+                                <div class="banner-text">
+                                <p>up to 40%</p>
+                                <h2>Fresh Fruit</h2>
+                                <a href="detail.html" class="btn">View more</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product Tags -->
+                        <div class="product-tags">
+                            <h4>PRODUCT TAGS</h4>
+                            <div class="product-tags-items">
+                            <a href="#">Apple</a>
+                            <a href="#">Mango</a>
+                            <a href="#">Banana</a>
+                            <a href="#">Fresh</a>
+                            <a href="#">Organic</a>
+                            <a href="#">Seasonal</a>
+                            <a href="#">Dried</a>
+                            <a href="#">Gift Basket</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-xl-9 detail_content" >
+                        <div class="row g-4 single-product">
+                            <div class="col-xl-6">
+                                <div class="product-gallery">
+                                    <div class="main-image" id="mainImage">
+                                        <button class="nav-btn prev">&lt;</button>
+                                        <img src="assets/images/products/dragon_fruist.jpg" alt="Main product image">
+                                        <button class="nav-btn next">&gt;</button>
+                                    </div>
+
+                                    <div class="thumbnail-list" id="thumbnails">
+                                        <div class="thumbnail active"><img src="assets/images/products/dragon_fruist.jpg" alt=""></div>
+                                        <div class="thumbnail"><img src="assets/images/products/strawberies.jpg" alt=""></div>
+                                        <div class="thumbnail"><img src="assets/images/products/le.jpg" alt=""></div>
+                                        <div class="thumbnail"><img src="assets/images/products/dautam.jpg" alt=""></div>
+                                        <div class="thumbnail"><img src="assets/images/products/lemonate.jpg" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 fruit-detail">
+                                <h2 class="product-name">Fresh Mango</h2>
+                                <p class="product-category">Category: Tropical Fruits</p>
+                                <h4 class="product-price">$3.35 / kg</h4>
+
+                                <div class="rating">
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-muted"></i>
+                                </div>
+
+                                <div class="share-buttons">
+                                    <a href="" class="btn-share facebook"><i class="fa fa-facebook-f"></i> Facebook</a>
+                                    <a  href="" class="btn-share twitter " ><i class="fa fa-youtube-square" style="color: red;"></i> youtube</a>
+                                </div>
+
+                                <div class="stock-info">
+                                    <small>SKU: FR-MANGO-001</small><br>
+                                    <small>Available: <strong class="text-success">20 kg in stock</strong></small>
+                                </div>
+
+                                <p class="product-desc">These fresh mangoes are naturally ripened and full of sweetness — perfect for smoothies or desserts.</p>
+
+                                <div class="quantity-control">
+                                    <button class="btn-qty minus">−</button>
+                                    <input type="text" value="1" class="qty-input" readonly>
+                                    <button class="btn-qty plus">+</button>
+                                </div>
+
+                                <button class="btn-add-cart">
+                                    <i class="fa fa-shopping-basket"></i> Add to Cart
+                                </button>
+                                <button class="btn-wishlist">
+                                    <i class="fa fa-heart"></i>
+                                    <span>Add to Wishlist</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 product-tabs-section">
+                                <div class="custom-tab-container">
+                                    <nav class="tab-nav">
+                                        <div class="tab-list" id="fruitTabList">
+                                            <button class="tab-button active" data-tab-target="#tab-description" type="button">Product Description</button>
+                                            
+                                            <button class="tab-button" data-tab-target="#tab-reviews" type="button">Reviews (2)</button>
+                                        </div>
+                                    </nav>
+
+                                    <div class="tab-content-area" id="fruitTabContent">
+                                        
+                                        <div class="tab-pane active" id="tab-description">
+                                            <p><strong>Cat Chu Mangoes</strong> are harvested from organic farms in Dong Thap, ensuring natural ripeness and rich sweetness. The mangoes have thin skin, thick flesh, minimal fiber, a bright yellow color, and a distinctive aroma.</p>
+                                            <p><strong>Nutritional Information:</strong> Rich in Vitamin A, Vitamin C, and fiber, which supports digestion and boosts the immune system.</p>
+                                            <ul class="product-details-list">
+                                                <li>Origin: Dong Thap, Vietnam</li>
+                                                <li>Packaging: 1kg/box</li>
+                                                <li>Best consumed within: 7 days from the date of purchase</li>
+                                                <li>Storage Tip: Keep in a cool, dry place or in the refrigerator.</li>
+                                            </ul>
+                                            <ul class="product-details-list">
+                                                <li>Origin: Dong Thap, Vietnam</li>
+                                                <li>Packaging: 1kg/box</li>
+                                                <li>Best consumed within: 7 days from the date of purchase</li>
+                                                <li>Storage Tip: Keep in a cool, dry place or in the refrigerator.</li>
+                                            </ul>
+                                            <ul class="product-details-list">
+                                                <li>Origin: Dong Thap, Vietnam</li>
+                                                <li>Packaging: 1kg/box</li>
+                                                <li>Best consumed within: 7 days from the date of purchase</li>
+                                                <li>Storage Tip: Keep in a cool, dry place or in the refrigerator.</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="tab-pane" id="tab-reviews">
+                                            
+                                            <div class="review-item">
+                                                <img src="assets/images/banner/banner3.jpg" class="review-avatar" alt="Avatar">
+                                                <div class="review-content">
+                                                    <p class="review-date">May 10, 2024</p>
+                                                    <div class="review-header-line">
+                                                        <h5>Minh Thu</h5>
+                                                        <div class="review-stars-group">
+                                                            <i class="fa fa-star star-yellow"></i>
+                                                            <i class="fa fa-star star-yellow"></i>
+                                                            <i class="fa fa-star star-yellow"></i>
+                                                            <i class="fa fa-star star-yellow"></i>
+                                                            <i class="fa fa-star star-yellow"></i>
+                                                        </div>
+                                                    </div>
+                                                    <p class="review-text">The mangoes are delicious, sweet, and fragrant. The store packaged them carefully, and the fruit wasn't bruised. I will definitely buy again!</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="review-item">
+                                                <img src="assets/images/products/dautam.jpg" class="review-avatar" alt="Avatar">
+                                                <div class="review-content">
+                                                    <p class="review-date">May 08, 2024</p>
+                                                    <div class="review-header-line">
+                                                        <h5>Thanh Dat</h5>
+                                                        <div class="review-stars-group">
+                                                            <i class="fa fa-star star-yellow"></i>
+                                                            <i class="fa fa-star star-yellow"></i>
+                                                            <i class="fa fa-star star-yellow"></i>
+                                                            <i class="fa fa-star star-yellow"></i>
+                                                            <i class="fa fa-star star-gray"></i>
+                                                        </div>
+                                                    </div>
+                                                    <p class="review-text">The fruit quality is fresh, and delivery was fast. However, the mangoes were a bit smaller than the last time I purchased. Still giving 4 stars for the sweetness.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- relation product  -->
+
+        <div class="related-fruit-section">
+            <div class="container-custom">
+                <div class="section-header">
+                    <h4 class="section-title">Related Fruits</h4>
+                    <p>Check out more tropical, organic, and fresh fruits from our farms.</p>
+                </div>
+                
+                <div class="fruit-slider-container">
+                    <button class="slider-nav prev-btn">
+                        <i class="fa fa-angle-left"></i>
+                    </button>
+                    
+                    <div class="slider-wrapper" id="relatedFruitSlider">
+                        
+                        <div class="fruit-card">
+                            <div class="card-image-box">
+                                <img src="assets/images/products/ot.jpg" alt="Organic Banana" class="card-img">
+                                <div class="card-label new">New</div>
+                                <div class="card-actions">
+                                    <a href="detail.html" class="action-btn"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="fruit-category">Tropical Fruits</a>
+                                <h5 class="fruit-name">Organic Banana (1kg)</h5>
+                                <div class="fruit-price">
+                                    <del>$4.50</del>
+                                    <span class="price-current">$3.99</span>
+                                </div>
+                                <div class="fruit-rating">
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-gray"></i>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button class="add-to-cart-btn">
+                                    <i class="fa fa-shopping-basket"></i> Add To Cart
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="fruit-card">
+                            <div class="card-image-box">
+                                <img src="assets/images/products/mango.jpg" alt="Red Dragon Fruit" class="card-img">
+                                <div class="card-label sale">Sale</div>
+                                <div class="card-actions">
+                                    <a href="detail.html" class="action-btn"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="fruit-category">Exotic Fruits</a>
+                                <h5 class="fruit-name">Red Dragon Fruit (per fruit)</h5>
+                                <div class="fruit-price">
+                                    <del>$6.00</del>
+                                    <span class="price-current">$4.95</span>
+                                </div>
+                                <div class="fruit-rating">
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button class="add-to-cart-btn">
+                                    <i class="fa fa-shopping-basket"></i> Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="fruit-card">
+                            <div class="card-image-box">
+                                <img src="assets/images/products/lemonate.jpg" alt="Crisp Red Apple" class="card-img">
+                                <div class="card-actions">
+                                    <a href="detail.html" class="action-btn"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="fruit-category">Seasonal Fruits</a>
+                                <h5 class="fruit-name">Crisp Red Apple (500g)</h5>
+                                <div class="fruit-price">
+                                    <span class="price-current">$2.80</span>
+                                </div>
+                                <div class="fruit-rating">
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-gray"></i>
+                                    <i class="fa fa-star star-gray"></i>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button class="add-to-cart-btn">
+                                    <i class="fa fa-shopping-basket"></i> Add To Cart
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="fruit-card">
+                            <div class="card-image-box">
+                                <img src="assets/images/products/le.jpg" alt="Fresh Avocado" class="card-img">
+                                <div class="card-label new">New</div>
+                                <div class="card-actions">
+                                    <a href="detail.html" class="action-btn"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="fruit-category">Fresh & Healthy</a>
+                                <h5 class="fruit-name">Fresh Avocado (2pcs)</h5>
+                                <div class="fruit-price">
+                                    <span class="price-current">$5.25</span>
+                                </div>
+                                <div class="fruit-rating">
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-half-o star-yellow"></i>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button class="add-to-cart-btn">
+                                    <i class="fa fa-shopping-basket"></i> Add To Cart
+                                </button>
+                            </div>
+                        </div>
+
+                         <div class="fruit-card">
+                            <div class="card-image-box">
+                                <img src="assets/images/products/dragon_fruist.jpg" alt="Organic Banana" class="card-img">
+                                <div class="card-label new">New</div>
+                                <div class="card-actions">
+                                    <a href="detail.html" class="action-btn"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="fruit-category">Tropical Fruits</a>
+                                <h5 class="fruit-name">Organic Banana (1kg)</h5>
+                                <div class="fruit-price">
+                                    <del>$4.50</del>
+                                    <span class="price-current">$3.99</span>
+                                </div>
+                                <div class="fruit-rating">
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-gray"></i>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button class="add-to-cart-btn">
+                                    <i class="fa fa-shopping-basket"></i> Add To Cart
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="fruit-card">
+                            <div class="card-image-box">
+                                <img src="assets/images/products/dautam.jpg" alt="Red Dragon Fruit" class="card-img">
+                                <div class="card-label sale">Sale</div>
+                                <div class="card-actions">
+                                    <a href="detail.html" class="action-btn"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="fruit-category">Exotic Fruits</a>
+                                <h5 class="fruit-name">Red Dragon Fruit (per fruit)</h5>
+                                <div class="fruit-price">
+                                    <del>$6.00</del>
+                                    <span class="price-current">$4.95</span>
+                                </div>
+                                <div class="fruit-rating">
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button class="add-to-cart-btn">
+                                    <i class="fa fa-shopping-basket"></i> Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="fruit-card">
+                            <div class="card-image-box">
+                                <img src="assets/images/products/dau.jpg" alt="Crisp Red Apple" class="card-img">
+                                <div class="card-actions">
+                                    <a href="detail.html" class="action-btn"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="fruit-category">Seasonal Fruits</a>
+                                <h5 class="fruit-name">Crisp Red Apple (500g)</h5>
+                                <div class="fruit-price">
+                                    <span class="price-current">$2.80</span>
+                                </div>
+                                <div class="fruit-rating">
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-gray"></i>
+                                    <i class="fa fa-star star-gray"></i>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button class="add-to-cart-btn">
+                                    <i class="fa fa-shopping-basket"></i> Add To Cart
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="fruit-card">
+                            <div class="card-image-box">
+                                <img src="assets/images/products/chery.jpg" alt="Fresh Avocado" class="card-img">
+                                <div class="card-label new">New</div>
+                                <div class="card-actions">
+                                    <a href="detail.html" class="action-btn"><i class="fa fa-eye"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="fruit-category">Fresh & Healthy</a>
+                                <h5 class="fruit-name">Fresh Avocado (2pcs)</h5>
+                                <div class="fruit-price">
+                                    <span class="price-current">$5.25</span>
+                                </div>
+                                <div class="fruit-rating">
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-yellow"></i>
+                                    <i class="fa fa-star star-half-o star-yellow"></i>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button class="add-to-cart-btn">
+                                    <i class="fa fa-shopping-basket"></i> Add To Cart
+                                </button>
+                            </div>
+                        </div>
+
+
+                        </div>
+                    
+                    <button class="slider-nav next-btn">
+                        <i class="fa fa-angle-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+           <!-- footer  -->
+        <footer class="footer_epr">
+                <div class="footer-container">
+                    <div class="footer-about">
+                    <h3>Fruit Store</h3>
+                    <p>
+                        Fresh imported fruits from the US, Australia, Korea and Japan.
+                        We ensure natural ripeness, sweetness and safety for your health.
+                    </p>
+                    </div>
+
+                    <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    </div>
+
+                    <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fa fa-map-marker-alt"></i> 123 Green Street, Ho Chi Minh</p>
+                    <p><i class="fa fa-phone"></i> +84 123 456 789</p>
+                    <p><i class="fa fa-envelope"></i> info@fruitstore.com</p>
+                    </div>
+
+                    <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <form>
+                        <input type="email" placeholder="Enter your email" required />
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>© 2025 Fruit Store. Designed & Developed by eProjectBeginner. All rights reserved.</p>
+                </div>
+        </footer>
+
+        
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/detail.js"></script>
+</body>
+</html>

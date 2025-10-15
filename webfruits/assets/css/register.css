@@ -1,0 +1,395 @@
+/* ==========================================
+   CSS Tùy chỉnh cho Trang Đăng ký
+========================================== */
+:root {
+    --primary-color: #ff8c00; /* Màu cam tươi */
+    --secondary-color: #4CAF50; /* Màu xanh lá */
+    --text-dark: #333;
+    --text-light: #666;
+    --bg-light: #f7f7f7;
+    --border-color: #e0e0e0;
+}
+
+.account-page-wrapper {
+    padding: 60px 0;
+    background-color: var(--bg-light);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Đảm bảo form ở giữa trang */
+}
+
+.register-container {
+    max-width: 450px;
+    width: 90%;
+}
+
+.register-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid var(--primary-color);
+}
+
+.register-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.register-subtitle {
+    font-size: 16px;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* --- Form Styling --- */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.register-form label,
+.login-form label,
+.forgot-form label {
+    display: block;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.register-form label i ,
+.login-form label i,
+.forgot-form label i{
+    color: var(--secondary-color);
+    margin-right: 8px;
+}
+
+.register-form input,
+.login-form input,
+.forgot-form input[type="text"],
+.register-form input,
+.login-form input,
+.forgot-form input[type="email"],
+.register-form input,
+.login-form input,
+.forgot-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+.register-form input:focus,
+.login-form input:focus ,
+.forgot-form input:focus{
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 140, 0, 0.2);
+}
+
+/* Checkbox */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-top: -10px; /* Điều chỉnh vị trí */
+}
+
+.checkbox-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.checkbox-group label {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/* Nút Đăng ký */
+.btn-register {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.btn-register:hover {
+    background-color: #e07b00;
+}
+
+/* Liên kết Đăng nhập */
+.login-link {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 15px;
+    color: var(--text-light);
+}
+
+.login-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* --- Đăng ký qua mạng xã hội --- */
+.social-login {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+}
+
+.social-login p {
+    color: var(--text-light);
+    margin-bottom: 15px;
+}
+
+.btn-social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 5px;
+    width: 140px; /* Đồng nhất kích thước */
+}
+
+.btn-social i {
+    margin-right: 10px;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.google {
+    background-color: #db4437; /* Màu đỏ Google */
+}
+
+.btn-social:hover {
+    opacity: 0.9;
+}
+
+
+/* ************************login ************************* */
+
+/* ==========================================
+   CSS Tùy chỉnh cho Trang Đăng nhập
+   (Sử dụng lại các biến và kiểu .form-group từ trang Đăng ký)
+========================================== */
+:root {
+    --primary-color: #ff8c00; 
+    --secondary-color: #4CAF50;
+    --text-dark: #333;
+    --text-light: #666;
+    --bg-light: #f7f7f7;
+    --border-color: #e0e0e0;
+}
+
+/* Tái sử dụng: .account-page-wrapper, .form-group, input[type], v.v. */
+/* Nếu bạn dùng chung một file CSS, chỉ cần đảm bảo các style đó được định nghĩa */
+
+.login-container {
+    max-width: 400px; /* Nhỏ hơn một chút so với trang Đăng ký */
+    width: 90%;
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid var(--primary-color);
+}
+
+.login-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login-subtitle {
+    font-size: 16px;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* --- Tùy chọn Ghi nhớ & Quên mật khẩu --- */
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    color: var(--text-dark);
+}
+
+.remember-me input[type="checkbox"] {
+    margin-right: 5px;
+    width: auto;
+}
+
+.forgot-password {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Nút Đăng nhập */
+.btn-login {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #e07b00;
+}
+
+/* Liên kết Đăng ký */
+.register-link {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 15px;
+    color: var(--text-light);
+}
+
+.register-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* --- Đăng nhập qua mạng xã hội (Tái sử dụng style từ trang Đăng ký) --- */
+.social-login {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+}
+/* ... đảm bảo bạn đã import CSS cho .btn-social, .facebook, .google ... */
+
+
+/* ==========================================
+   CSS Tùy chỉnh cho Trang Quên mật khẩu
+========================================== */
+:root {
+    --primary-color: #ff8c00; 
+    --secondary-color: #4CAF50;
+    --text-dark: #333;
+    --text-light: #666;
+    --bg-light: #f7f7f7;
+    --border-color: #e0e0e0;
+}
+
+/* Container cho trang Quên mật khẩu */
+.forgot-container {
+    max-width: 400px;
+    width: 90%;
+}
+
+.forgot-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid var(--primary-color);
+}
+
+.forgot-title {
+    font-size: 24px; /* Nhỏ hơn Login/Register một chút */
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.forgot-subtitle {
+    font-size: 15px;
+    color: var(--text-light);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Nút Gửi liên kết */
+.btn-reset-link {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--secondary-color); /* Sử dụng màu Xanh lá để tạo sự khác biệt */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-reset-link:hover {
+    background-color: #43a047;
+}
+
+/* Liên kết Quay lại Đăng nhập */
+.back-to-login {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 15px;
+    padding-top: 15px;
+    border-top: 1px solid var(--border-color);
+}
+
+.back-to-login a {
+    color: var(--text-dark);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.back-to-login a:hover {
+    color: var(--primary-color);
+}
+
+.back-to-login i {
+    margin-right: 5px;
+}

@@ -1,0 +1,194 @@
+
+
+/* ==========================================
+   Custom CSS for  Wishlist
+========================================== */
+.wishlist-page-wrapper {
+    padding: 60px 0;
+    background-color: var(--bg-light, #f9f9f9);
+    font-family: 'Arial', sans-serif;
+}
+
+.wishlist-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wishlist-title {
+    font-size: 32px;
+    color: var(--text-dark, #333);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* --- Table Styling --- */
+.wishlist-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.wishlist-table thead th {
+    background-color: var(--primary-color, #ff8c00);
+    color: #fff;
+    padding: 15px 10px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.wishlist-table tbody tr {
+    border-bottom: 1px solid var(--border-color, #e0e0e0);
+    transition: background-color 0.3s;
+}
+
+.wishlist-table tbody tr:hover {
+    background-color: #fff5f0;
+}
+
+.wishlist-table td {
+    padding: 15px 10px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+/* Thumbnail */
+.product-thumbnail {
+    width: 80px;
+}
+.item-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+}
+
+/* Product Name */
+.product-name a {
+    color: var(--text-dark, #333);
+    text-decoration: none;
+    font-weight: 600;
+}
+.product-name a:hover {
+    color: var(--primary-color, #ff8c00);
+}
+
+/* Remove Button */
+.product-remove {
+    text-align: center;
+    width: 50px;
+}
+.remove-btn {
+    color: var(--text-light, #666);
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.remove-btn:hover {
+    color: #e74c3c; 
+}
+
+.in-stock {
+    color: #2ecc71;
+    font-weight: 600;
+}
+.out-of-stock {
+    color: #e74c3c;
+    font-weight: 600;
+}
+
+/* Add to Cart Button */
+.btn-add-to-cart {
+    background-color: var(--secondary-color, #4CAF50);
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn-add-to-cart:hover:not(:disabled) {
+    background-color: #43a047;
+}
+
+.btn-add-to-cart.disabled {
+    background-color: var(--border-color, #ccc);
+    cursor: not-allowed;
+}
+
+/* Wishlist Actions */
+.wishlist-actions {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.btn-continue-shopping {
+    background-color: #fff;
+    color: var(--text-dark, #333);
+    border: 1px solid var(--border-color, #e0e0e0);
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-continue-shopping:hover {
+    background-color: var(--primary-color, #ff8c00);
+    color: #fff;
+    border-color: var(--primary-color, #ff8c00);
+}
+
+.btn-continue-shopping i {
+    margin-right: 8px;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    .wishlist-table thead {
+        display: none;
+    }
+    .wishlist-table, .wishlist-table tbody, .wishlist-table tr, .wishlist-table td {
+        display: block;
+        width: 100%;
+    }
+    .wishlist-table tr {
+        margin-bottom: 20px;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        padding: 10px;
+    }
+    .wishlist-table td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+    .wishlist-table td::before {
+        content: attr(class); 
+        position: absolute;
+        left: 10px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        font-weight: 600;
+        text-align: left;
+        color: var(--primary-color);
+    }
+    
+    .wishlist-table td.product-remove::before { content: "Remove"; }
+    .wishlist-table td.product-thumbnail::before { content: "Image"; }
+    .wishlist-table td.product-name::before { content: "Product"; }
+    .wishlist-table td.product-price::before { content: "Price"; }
+    .wishlist-table td.product-stock::before { content: "Status"; }
+    .wishlist-table td.product-add-cart::before { content: "Action"; }
+    
+    .product-thumbnail { text-align: right; }
+    .product-remove { text-align: right; }
+}

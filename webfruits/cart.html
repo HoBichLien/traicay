@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cart page for Fresh Fruits -Modern HTML template for fruit shops and organic stores.">
+    <meta name="author" content="eProjectBeginner">
+    <title>CART</title>
+    <link rel="shortcut icon" href="assets/images/favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/favicon/favicon-32x32.png" type="image/x-icon">
+     <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
+    <link rel="stylesheet" href="assets/css/note.css">
+</head>
+<body>
+      <!-- loading... -->
+     <div class="load">
+        <div class="load_logo">
+            <i class="fa fa-leaf"></i>
+        </div>
+        <h2 class="load_text">
+            Fruits <span>Fresh</span>
+        </h2>
+     </div>
+
+       <!-- top bar  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div>
+                    <a href="about.html">Support</a> <small>|</small>
+                    <a href="contact.html">Contact</a> <small>|</small>
+                    <a href="about.html">Help</a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <small>Phone:</small> <a href="">+84 1234567890</a>
+            </div>
+            <div class="col-lg-4">
+                <div class="dropdown">
+                    <a href="" class="trigger ">USD <i class="fa fa-sort-desc"></i></a>
+                    <div class="dropdown_menu">
+                        <p href="">VND</p>
+                        <a href="">RMB</a>
+                        <a href="">EURO</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="" class="trigger">User <i class="fa fa-sort-desc"></i></a>
+                    <div class="dropdown_menu">
+                        <a href="login.html">Login</a>
+                        <a href="register.html">Register</a>
+                        <a href="index.html">Logout</a>
+                    </div>
+                </div>
+            </div>
+            <div id="announcement-bar" class="announcement-bar">
+            <div class="announcement-content-container">
+                <p>
+                    ✨ **SPECIAL OFFER!** Get 15% OFF all Fruit Gift Baskets! Use code: <strong>FRUITLOVE15</strong> <i class="fa fa-gift"></i>
+                </p>
+                <button id="close-announcement" class="close-btn" aria-label="Close Announcement">
+                    <i class="fa fa-times"></i>
+                </button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+     <!-- Logo -->
+    <div class="container_logo">
+        <div class="row">
+            <div class="col-lg-4 hinh">
+                <a href="index.html">
+                    <img src="assets/images/products/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="col-lg-4 search-box">
+                <input type="text" placeholder="search looking for...">
+                <button class="search-btn"><i class="fa fa-search"></i></button>
+            </div>
+            <div class="col-lg-4 icons">
+                <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+                <a href="cart.html" class="cart">
+                    <i class="fa fa-shopping-cart " style="color: blue;"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- navbar  -->
+
+    <div class="container_nav" role="navigation">
+        <div class="row">
+            <div class="col-lg-6 cate">
+                <button id="btn-cat" aria-label="All Categories">
+                    <h4><i class="fa fa-bars "></i> All Categories</h4>
+                </button>
+                <div class="allcat" id="dropdown-cat">
+                    <div class="list_cat">
+                        <ul class="cat_bars">
+                            <li>
+                                <div class="item_cat">
+                                    <a href="">Fruit Juice</a>
+                                    <span>(12)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cat">
+                                    <a href="">Dried Fruits</a>
+                                    <span>(21)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cat">
+                                    <a href="">Fresh Fruits</a>
+                                    <span>(15)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cat">
+                                    <a href="">Fruit Gift Basket</a>
+                                    <span>(32)</span>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="nav_page">
+                    <a href="index.html">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="about.html">About Us</a>
+                    <a href="blog.html">Blog</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- slide header  -->
+
+       <div class="page-header">
+            <h1 class="page-title">Cart Page</h1>
+            <nav class="breadcrumb">
+                <ul>
+                <li><a href="index.html">Home</a><span>/</span></li>
+                <li><a href="#">Pages</a><span>/</span></li>
+                <li>Cart</li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Cart  -->
+
+        <div class="cart-page-wrapper">
+            <div class="cart-container">
+                <h1 class="cart-title">Shopping Cart</h1>
+                <div class="cart-content-grid">
+                    <div class="cart-items-col">
+                        <table class="cart-table">
+                            <thead>
+                                <tr>
+                                    <th class="product-remove"></th>
+                                    <th class="product-thumbnail"></th>
+                                    <th class="product-name">Product</th>
+                                    <th class="product-price">Price</th>
+                                    <th class="product-quantity">Quantity</th>
+                                    <th class="product-subtotal">Subtotal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr class="cart-item">
+                                    <td class="product-remove">
+                                        <a href="#" class="remove-from-cart" title="Remove"><i class="fa fa-times"></i></a>
+                                    </td>
+                                    <td class="product-thumbnail">
+                                        <img src="assets/images/products/chery.jpg" alt="Apple" class="item-img">
+                                    </td>
+                                    <td class="product-name">Organic Red Apple (1kg)</td>
+                                    <td class="product-price">$12.99</td>
+                                    <td class="product-quantity">
+                                        <div class="quantity-control">
+                                            <button class="qty-btn minus-btn"><i class="fa fa-minus"></i></button>
+                                            <input type="text" value="2" min="1" class="qty-input">
+                                            <button class="qty-btn plus-btn"><i class="fa fa-plus"></i></button>
+                                        </div>
+                                    </td>
+                                    <td class="product-subtotal">$25.98</td> </tr>
+                                
+                                <tr class="cart-item">
+                                    <td class="product-remove">
+                                        <a href="#" class="remove-from-cart" title="Remove"><i class="fa fa-times"></i></a>
+                                    </td>
+                                    <td class="product-thumbnail">
+                                        <img src="assets/images/products/mango.jpg" alt="Mango" class="item-img">
+                                    </td>
+                                    <td class="product-name">Fresh Mango (Cat Chu)</td>
+                                    <td class="product-price">$3.35</td>
+                                    <td class="product-quantity">
+                                        <div class="quantity-control">
+                                            <button class="qty-btn minus-btn"><i class="fa fa-minus"></i></button>
+                                            <input type="text" value="1" min="1" class="qty-input">
+                                            <button class="qty-btn plus-btn"><i class="fa fa-plus"></i></button>
+                                        </div>
+                                    </td>
+                                    <td class="product-subtotal">$3.35</td> </tr>
+
+                            </tbody>
+                        </table>
+                        
+                        <div class="cart-actions-row">
+                            <div class="coupon-box">
+                                <input type="text" placeholder="Coupon Code" class="coupon-input">
+                                <button class="btn-apply-coupon">Apply Coupon</button>
+                            </div>
+                            <button class="btn-update-cart">Update Cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="cart-summary-col">
+                        <div class="cart-total-box">
+                            <h2 class="summary-title">Cart Totals</h2>
+                            
+                            <div class="total-line">
+                                <span>Subtotal:</span>
+                                <span class="value">$29.33</span>
+                            </div>
+                            
+                            <div class="total-line">
+                                <span>Shipping:</span>
+                                <span class="value">Flat Rate: $5.00</span>
+                            </div>
+                            
+                            <div class="total-line grand-total">
+                                <span>Total:</span>
+                                <span class="value">$34.33</span>
+                            </div>
+                            
+                            <button class="btn-checkout">Proceed to Checkout</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+          <!-- footer  -->
+    <footer class="footer_epr">
+            <div class="footer-container">
+                <div class="footer-about">
+                <h3>Fruit Store</h3>
+                <p>
+                    Fresh imported fruits from the US, Australia, Korea and Japan.
+                    We ensure natural ripeness, sweetness and safety for your health.
+                </p>
+                </div>
+
+                <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                </div>
+
+                <div class="footer-contact">
+                <h4>Contact</h4>
+                <p><i class="fa fa-map-marker-alt"></i> 123 Green Street, Ho Chi Minh</p>
+                <p><i class="fa fa-phone"></i> +84 123 456 789</p>
+                <p><i class="fa fa-envelope"></i> info@fruitstore.com</p>
+                </div>
+
+                <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <form>
+                    <input type="email" placeholder="Enter your email" required />
+                    <button type="submit">Subscribe</button>
+                </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 Fruit Store. Designed & Developed by eProjectBeginner. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

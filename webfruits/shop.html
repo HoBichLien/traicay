@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shop page for Fresh Fruits -Modern HTML template for fruit shops and organic stores.">
+    <meta name="author" content="eProjectBeginner">
+    <title>SHOP FRESH FRUITS</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/shop.css">
+    <link rel="stylesheet" href="assets/css/note.css">
+</head>
+<body>
+    <!-- loading... -->
+     <div class="load">
+        <div class="load_logo">
+            <i class="fa fa-leaf"></i>
+        </div>
+        <h2 class="load_text">
+            Fruits <span>Fresh</span>
+        </h2>
+     </div>
+
+       <!-- top bar  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div>
+                    <a href="about.html">Support</a> <small>|</small>
+                    <a href="contact.html">Contact</a> <small>|</small>
+                    <a href="contact.html">Help</a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <small>Phone:</small> <a href="">+84 1234567890</a>
+            </div>
+            <div class="col-lg-4">
+                <div class="dropdown">
+                    <a href="" class="trigger ">USD <i class="fa fa-sort-desc"></i></a>
+                    <div class="dropdown_menu">
+                        <p href="">VND</p>
+                        <a href="">RMB</a>
+                        <a href="">EURO</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="" class="trigger">User <i class="fa fa-sort-desc"></i></a>
+                    <div class="dropdown_menu">
+                        <a href="login.html">Login</a>
+                        <a href="register.html">Register</a>
+                        <a href="index.html">Logout</a>
+                    </div>
+                </div>
+            </div>
+            <div id="announcement-bar" class="announcement-bar">
+            <div class="announcement-content-container">
+                <p>
+                    ✨ **SPECIAL OFFER!** Get 15% OFF all Fruit Gift Baskets! Use code: <strong>FRUITLOVE15</strong> <i class="fa fa-gift"></i>
+                </p>
+                <button id="close-announcement" class="close-btn" aria-label="Close Announcement">
+                    <i class="fa fa-times"></i>
+                </button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+     <!-- Logo -->
+    <div class="container_logo">
+        <div class="row">
+            <div class="col-lg-4 hinh">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="col-lg-4 search-box">
+                <input type="text" placeholder="search looking for...">
+                <button class="search-btn"><i class="fa fa-search"></i></button>
+            </div>
+            <div class="col-lg-4 icons">
+                <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+                <a href="cart.html" class="cart">
+                    <i class="fa fa-shopping-cart " style="color: blue;"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- navbar  -->
+
+    <div class="container_nav" role="navigation">
+        <div class="row">
+            <div class="col-lg-6 cate">
+                <button id="btn-cat" aria-label="All Categories">
+                    <h4><i class="fa fa-bars "></i> All Categories</h4>
+                </button>
+                <div class="allcat" id="dropdown-cat">
+                    <div class="list_cat">
+                        <ul class="cat_bars">
+                            <li>
+                                <div class="item_cat">
+                                    <a href="">Fruit Juice</a>
+                                    <span>(12)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cat">
+                                    <a href="">Dried Fruits</a>
+                                    <span>(21)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cat">
+                                    <a href="">Fresh Fruits</a>
+                                    <span>(15)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cat">
+                                    <a href="">Fruit Gift Basket</a>
+                                    <span>(32)</span>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="nav_page">
+                    <a href="index.html">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="about.html">About Us</a>
+                    <a href="blog.html">Blog</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- slide header  -->
+
+       <div class="page-header">
+            <h1 class="page-title">Shop Page</h1>
+            <nav class="breadcrumb">
+                <ul>
+                <li><a href="index.html">Home</a><span>/</span></li>
+                <li><a href="#">Pages</a><span>/</span></li>
+                <li>Shop</li>
+                </ul>
+            </nav>
+        </div>
+
+     <!-- service  -->
+
+    <div class="container_service">
+        <div class="row">
+            <div class="col-lg-3 mini">
+                <div class="freeship">
+                    <i class="fa fa-truck"></i>
+                    <div>
+                        <h6>Free Shipping</h6>
+                        <p>Free shipping on all order</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mini">
+                <div class="return">
+                    <i class="fa fa-exchange"></i>
+                    <div>
+                        <h6>Free Return</h6>
+                        <p>30 days money back guarantee</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mini">
+                <div class="support">
+                    <i class="fa fa-phone-square"></i>
+                    <div>
+                        <h6>Support 24/7</h6>
+                        <p>We support online 24 hrs a day</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mini">
+                <div class="on_ser">
+                    <i class="fa fa-paper-plane-o"></i>
+                    <div>
+                        <h6>Online Service</h6>
+                        <p>Free return products in 30 days </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--small slide  shop  -->
+    <section class="deal-section">
+        <div class="deal-container">
+            <div class="deal-card">
+                <a href="#" class="deal-box">
+                <div class="deal-info">
+                    <div class="deal-badge">-40%</div>
+                    <p class="deal-sub">Discover the Freshest Imported Fruits!</p>
+                    <h3 class="deal-title">Premium Fruit Basket</h3>
+                    <h2 class="deal-sale">Exclusive Offer</h2>
+                    <h1 class="deal-percent">Up to 40% <span>Off</span></h1> 
+                </div>
+                <img src="assets/images/products/lemonate.jpg" alt="Smart Camera" class="deal-img">
+            </a>
+            </div>
+            <div class="deal-card">
+                <a href="#" class="deal-box">
+                <div class="deal-info">
+                    <div class="deal-badge">-25%</div>
+                    <p class="deal-sub">Crisp Taste from the Land of the Rising Sun!</p>
+                    <h3 class="deal-title">Japanese Fuji Apples</h3>
+                    <h2 class="deal-sale">Naturally Sweet & Perfectly Fresh</h2>
+                    <h1 class="deal-percent">Up to 25% <span>Off</span></h1>
+                </div>
+                <img src="assets/images/products/dragon_fruist.jpg" alt="Smart Watch" class="deal-img">
+            </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- shop page  -->
+    <div class="container_shop">
+        <div class="container_shoppage">
+            <div class="row">
+                <div class="col-lg-3 shop_cate">
+                    <!-- Categories Fruits -->
+                        <div class="pro_cate">
+                            <h4 style=" color: rgb(55, 0, 255);">Categories Fruits</h4>
+                            <ul class="cate_list">
+                                <li class="cate_item">
+                                    <a href="#">
+                                    <i class="fa fa-apple"></i>
+                                    <span>Fruit Juice</span>
+                                    <span>(12)</span>
+                                    </a>
+                                </li>
+                                <li class="cate_item">
+                                    <a href="#">
+                                    <i class="fa fa-lemon-o"></i>
+                                    <span>Dried Fruits</span>
+                                    <span>(24)</span>
+                                    </a>
+                                </li>
+                                <li class="cate_item">
+                                    <a href="#">
+                                    <i class="fa fa-gift"></i>
+                                    <span>Fresh Fruits</span>
+                                    <span>(34)</span>
+                                    </a>
+                                </li>
+                                <li class="cate_item">
+                                    <a href="#">
+                                    <i class="fa fa-shopping-basket"></i>
+                                    <span>Fruit Gift Basket</span>
+                                    <span>(14)</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    <!-- Price Filter -->
+                        <div class="price">
+                            <h4 style=" color: rgb(43, 0, 255);">Price</h4>
+                            <input type="range" class="form-range" id="priceRange" min="0" max="100" value="50">
+                            <output id="priceValue">50</output>
+                            <p class="truotgia">Slide bar to filter prices</p>
+                        </div>
+
+                    <!-- Select By Season -->
+                        <div class="product-season" style="padding: 15px 20px;">
+                            <h4 style=" color: red;">Select By Season</h4>
+                            <div class="product-season-item">
+                                <a href="#"><i class="fa fa-sun-o"></i> Summer <span>(3)</span></a>
+                            </div>
+                            <div class="product-season-item">
+                                <a href="#"><i class="fa fa-snowflake-o"></i> Winter <span>(2)</span></a>
+                            </div>
+                            <div class="product-season-item">
+                                <a href="#"><i class="fa fa-leaf"></i> All Year <span>(5)</span></a>
+                            </div>
+                        </div>
+
+                    <!-- Additional Options -->
+                        <div class="additional-product" style="padding: 15px 20px;">
+                            <h4 style=" color: red;">Additional Options</h4>
+                            <div class="additional-product-item">
+                                <input type="radio" id="opt1" name="options">
+                                <label for="opt1">Gift Wrapping</label>
+                            </div>
+                            <div class="additional-product-item">
+                                <input type="radio" id="opt2" name="options">
+                                <label for="opt2">Basket Decoration</label>
+                            </div>
+                            <div class="additional-product-item">
+                                <input type="radio" id="opt3" name="options">
+                                <label for="opt3">Fruit Knife</label>
+                            </div>
+                            <div class="additional-product-item">
+                                <input type="radio" id="opt4" name="options">
+                                <label for="opt4">Express Delivery</label>
+                            </div>
+                        </div>
+
+                    <!-- Featured Fruits -->
+                        <div class="featured-product">
+                            <h4 style="color: red;">Featured Fruits </h4>
+                            <div class="featured-product-item">
+                                <img src="assets/images/products/le.jpg" alt="Apple">
+                                <div>
+                                    <h6>Apple</h6>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                    <div class="price">
+                                        <del>60.000 ₫</del>
+                                        <span>50.000 ₫</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="featured-product-item">
+                                <img src="assets/images/products/mango.jpg" alt="Mango">
+                                <div>
+                                    <h6>Mango</h6>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                    <div class="price">
+                                        <del>80.000 ₫</del>
+                                        <span>70.000 ₫</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- View More -->
+                    <div class="view-more">
+                        <div class="banner-overlay">
+                            <img src="/assets/images/banner/banner3.jpg" alt="Fresh Fruit Banner">
+                            <div class="banner-text">
+                            <p>up to 40%</p>
+                            <h2>Fresh Fruit</h2>
+                            <a href="#" class="btn">View more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Tags -->
+                    <div class="product-tags">
+                        <h4>PRODUCT TAGS</h4>
+                        <div class="product-tags-items">
+                        <a href="#">Apple</a>
+                        <a href="#">Mango</a>
+                        <a href="#">Banana</a>
+                        <a href="#">Fresh</a>
+                        <a href="#">Organic</a>
+                        <a href="#">Seasonal</a>
+                        <a href="#">Dried</a>
+                        <a href="#">Gift Basket</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 shop_content" >
+                    <div class="sho_content_img">
+                            <img src="assets/images/banner/banner2.jpg"  alt="banner2">
+                            <div class="sale_info">
+                                <h4 style="color: blue;">SALE</h4>
+                                <h3 style="color: green;">Get Up To 50% Off</h3>
+                                <a href="">View More </a>
+                            </div>
+                    </div>
+                    <div class="row align-items-center my-4">
+                            <div class="col-xl-7 search_sort">
+                                <div class="input-group">
+                                    <input type="search" class="form-control p-3" placeholder="keywords">
+                                    <button class="btn btn-outline-secondary p-3">
+                                    <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-xl-3  sort">
+                            <div class="d-flex justify-content-end align-items-center gap-2">
+                                    <label for="sort" class="mb-0">Sort By:</label>
+                                    <select id="sort" class="form-select w-auto">
+                                    <option value="default">Default Sorting</option>
+                                    <option value="popularity">Popularity</option>
+                                    <option value="new">Newness</option>
+                                    <option value="rating">Average Rating</option>
+                                    <option value="low">Low to high</option>
+                                    <option value="high">High to low</option>
+                                    </select>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <div class="shop_pro_item">
+                                <div class="sho_pro_inner">
+                                    <div class="sho_pro_inner_item">
+                                        <img src="assets/images/products/lemonate.jpg" alt="lemonate">
+                                        <div class="pro_new">New</div>
+                                    </div>
+                                    <div class="shop_info">
+                                        <a href="">Fresh Fruit</a>
+                                        <a href="">Lemonate</a>
+                                        <del>$45</del>
+                                        <span>$34</span>
+                                    </div>
+                                </div>
+                                <div class="add_cart">
+                                    <a href=""> 
+                                        <i class="fa fa-shopping-cart"></i>
+                                        Add To Cart
+                                    </a>
+                                    <div class="shop_star">
+                                        <div class="pro_star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                        <div class="compe_pro">
+                                            <a href=""><i class="fa fa-random"></i></a>
+                                            <a href=""><i class="fa fa-heart"></i></a>
+                                            <a href="detail.html">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col-lg-4">
+                            <div class="shop_pro_item">
+                                <div class="sho_pro_inner">
+                                    <div class="sho_pro_inner_item">
+                                        <img src="assets/images/products/lemonate.jpg" alt="lemonate">
+                                        <div class="pro_new">New</div>
+                                    </div>
+                                    <div class="shop_info">
+                                        <a href="">Fresh Fruit</a>
+                                        <a href="">Lemonate</a>
+                                        <del>$45</del>
+                                        <span>$34</span>
+                                    </div>
+                                </div>
+                                <div class="add_cart">
+                                    <a href=""> 
+                                        <i class="fa fa-shopping-cart"></i>
+                                        Add To Cart
+                                    </a>
+                                    <div class="shop_star">
+                                        <div class="pro_star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                        <div class="compe_pro">
+                                            <a href=""><i class="fa fa-random"></i></a>
+                                            <a href=""><i class="fa fa-heart"></i></a>
+                                            <a href="detail.html">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col-lg-4">
+                            <div class="shop_pro_item">
+                                <div class="sho_pro_inner">
+                                    <div class="sho_pro_inner_item">
+                                        <img src="assets/images/products/lemonate.jpg" alt="lemonate">
+                                        <div class="pro_new">New</div>
+                                    </div>
+                                    <div class="shop_info">
+                                        <a href="">Fresh Fruit</a>
+                                        <a href="">Lemonate</a>
+                                        <del>$45</del>
+                                        <span>$34</span>
+                                    </div>
+                                </div>
+                                <div class="add_cart">
+                                    <a href=""> 
+                                        <i class="fa fa-shopping-cart"></i>
+                                        Add To Cart
+                                    </a>
+                                    <div class="shop_star">
+                                        <div class="pro_star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                        <div class="compe_pro">
+                                            <a href=""><i class="fa fa-random"></i></a>
+                                            <a href=""><i class="fa fa-heart"></i></a>
+                                            <a href="detail.html">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col-lg-4">
+                            <div class="shop_pro_item">
+                                <div class="sho_pro_inner">
+                                    <div class="sho_pro_inner_item">
+                                        <img src="assets/images/products/lemonate.jpg" alt="lemonate">
+                                        <div class="pro_new">New</div>
+                                    </div>
+                                    <div class="shop_info">
+                                        <a href="">Fresh Fruit</a>
+                                        <a href="">Lemonate</a>
+                                        <del>$45</del>
+                                        <span>$34</span>
+                                    </div>
+                                </div>
+                                <div class="add_cart">
+                                    <a href=""> 
+                                        <i class="fa fa-shopping-cart"></i>
+                                        Add To Cart
+                                    </a>
+                                    <div class="shop_star">
+                                        <div class="pro_star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                        <div class="compe_pro">
+                                            <a href=""><i class="fa fa-random"></i></a>
+                                            <a href=""><i class="fa fa-heart"></i></a>
+                                            <a href="detail.html">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col-lg-4">
+                            <div class="shop_pro_item">
+                                <div class="sho_pro_inner">
+                                    <div class="sho_pro_inner_item">
+                                        <img src="assets/images/products/lemonate.jpg" alt="lemonate">
+                                        <div class="pro_new">New</div>
+                                    </div>
+                                    <div class="shop_info">
+                                        <a href="">Fresh Fruit</a>
+                                        <a href="">Lemonate</a>
+                                        <del>$45</del>
+                                        <span>$34</span>
+                                    </div>
+                                </div>
+                                <div class="add_cart">
+                                    <a href=""> 
+                                        <i class="fa fa-shopping-cart"></i>
+                                        Add To Cart
+                                    </a>
+                                    <div class="shop_star">
+                                        <div class="pro_star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                        <div class="compe_pro">
+                                            <a href=""><i class="fa fa-random"></i></a>
+                                            <a href=""><i class="fa fa-heart"></i></a>
+                                            <a href="detail.html">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col-lg-4">
+                            <div class="shop_pro_item">
+                                <div class="sho_pro_inner">
+                                    <div class="sho_pro_inner_item">
+                                        <img src="assets/images/products/lemonate.jpg" alt="lemonate">
+                                        <div class="pro_new">New</div>
+                                    </div>
+                                    <div class="shop_info">
+                                        <a href="">Fresh Fruit</a>
+                                        <a href="">Lemonate</a>
+                                        <del>$45</del>
+                                        <span>$34</span>
+                                    </div>
+                                </div>
+                                <div class="add_cart">
+                                    <a href=""> 
+                                        <i class="fa fa-shopping-cart"></i>
+                                        Add To Cart
+                                    </a>
+                                    <div class="shop_star">
+                                        <div class="pro_star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                        <div class="compe_pro">
+                                            <a href=""><i class="fa fa-random"></i></a>
+                                            <a href=""><i class="fa fa-heart"></i></a>
+                                            <a href="detail.html">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination_shop d-flex justify-content-center mt-4">
+                        <a href="#" class="rounded">&laquo;</a>
+                        <a href="#" class="active rounded">1</a>
+                        <a href="#" class="rounded">2</a>
+                        <a href="#" class="rounded">3</a>
+                        <a href="#" class="rounded">&raquo;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- mini_slide_shop -->
+    <div class="container_mini_shop">
+        <div class="row"> 
+            <div class="col-lg-6">
+                <div class="minislide_shop">
+                    <div class="slide_content_shop">
+                        <p>Find the best Fruit Juice for you</p>
+                        <h3>Fruit Juice</h3>
+                        <h1>50% <span>Off</span></h1>
+                    </div>
+                    <img src="assets/images/banner/banner3.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="minislide_shop">
+                    <div class="slide_content_shop">
+                        <p>Find the best Fruit Gift Basket for you</p>
+                        <h3>Fruit Gift Basket</h3>
+                        <h1>50% <span>Off</span></h1>
+                    </div>
+                    <img src="assets/images/banner/banner5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- footer  -->
+    <footer class="footer_epr">
+            <div class="footer-container">
+                <div class="footer-about">
+                <h3>Fruit Store</h3>
+                <p>
+                    Fresh imported fruits from the US, Australia, Korea and Japan.
+                    We ensure natural ripeness, sweetness and safety for your health.
+                </p>
+                </div>
+
+                <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                </div>
+
+                <div class="footer-contact">
+                <h4>Contact</h4>
+                <p><i class="fa fa-map-marker-alt"></i> 123 Green Street, Ho Chi Minh</p>
+                <p><i class="fa fa-phone"></i> +84 123 456 789</p>
+                <p><i class="fa fa-envelope"></i> info@fruitstore.com</p>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <form>
+                        <input type="email" placeholder="Enter your email" required />
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Fruit Store. Designed & Developed by eProjectBeginner. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="assets/js/shop.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

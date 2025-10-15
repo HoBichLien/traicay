@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Register page for Fresh Fruits -Modern HTML template for fruit shops and organic stores.">
+    <meta name="author" content="eProjectBeginner">
+    <title>REGISTER</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/note.css">
+    <link rel="stylesheet" href="assets/css/register.css">
+</head>
+<body>
+    <!-- loading... -->
+     <div class="load">
+        <div class="load_logo">
+            <i class="fa fa-leaf"></i>
+        </div>
+        <h2 class="load_text">
+            Fruits <span>Fresh</span>
+        </h2>
+     </div>
+     
+      <!-- top bar  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div>
+                    <a href="about.html">Support</a> <small>|</small>
+                    <a href="contact.html">Contact</a> <small>|</small>
+                    <a href="contact.html">Help</a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <small>Phone:</small> <a href="">+84 1234567890</a>
+            </div>
+            <div class="col-lg-4">
+                <div class="dropdown">
+                    <a href="" class="trigger ">USD <i class="fa fa-sort-desc"></i></a>
+                    <div class="dropdown_menu">
+                        <p href="">VND</p>
+                        <a href="">RMB</a>
+                        <a href="">EURO</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="" class="trigger">User <i class="fa fa-sort-desc"></i></a>
+                    <div class="dropdown_menu">
+                        <a href="login.html">Login</a>
+                        <a href="register.html">Register</a>
+                        <a href="index.html">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- copon  -->
+        <div id="announcement-bar" class="announcement-bar">
+            <div class="announcement-content-container">
+                <p>
+                    ✨ **SPECIAL OFFER!** Get 15% OFF all Fruit Gift Baskets! Use code: <strong>FRUITLOVE15</strong> <i class="fa fa-gift"></i>
+                </p>
+                <button id="close-announcement" class="close-btn" aria-label="Close Announcement">
+                    <i class="fa fa-times"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+     <!-- Logo -->
+    <div class="container_logo">
+        <div class="row">
+            <div class="col-lg-4 hinh">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="col-lg-4 search-box">
+                <input type="text" placeholder="search looking for...">
+                <button class="search-btn"><i class="fa fa-search"></i></button>
+            </div>
+            <div class="col-lg-4 icons">
+                <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+                <a href="cart.html" class="cart">
+                    <i class="fa fa-shopping-cart " style="color: blue;"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- register  -->
+
+    <div class="account-page-wrapper">
+        <div class="register-container">
+            
+            <div class="register-box">
+                <h1 class="register-title">Create Your Fruit Account</h1>
+                <p class="register-subtitle">Sign up to enjoy 15% off your first fruit basket!</p>
+
+                <form action="#" method="POST" class="register-form">
+                    
+                    <div class="form-group">
+                        <label for="name"><i class="fa fa-user"></i> Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email"><i class="fa fa-envelope"></i> Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password"><i class="fa fa-lock"></i> Password</label>
+                        <input type="password" id="password" name="password" placeholder="Min. 8 characters" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="confirm-password"><i class="fa fa-lock"></i> Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder="Re-enter password" required>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">I want to receive special offers and updates via email.</label>
+                    </div>
+                    
+                    <button type="submit" class="btn-register">Sign Up Now</button>
+                </form>
+
+                <div class="login-link">
+                    Already have an account? <a href="login.html">Log In</a>
+                </div>
+
+                <div class="social-login">
+                    <p>Or sign up with:</p>
+                    <a href="#" class="btn-social facebook"><i class="fa fa-facebook-f"></i> Facebook</a>
+                    <a href="#" class="btn-social google"><i class="fa fa-google"></i> Google</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
