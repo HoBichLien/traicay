@@ -19,7 +19,7 @@ Built with **HTML5, CSS, and JavaScript**, it’s easy to customize and ideal fo
 
 **(Replace these with your actual screenshots in `assets/images/screenshots/`)**
 
-![Home Page]((https://github.com/HoBichLien/traicay/blob/main/home.png?raw=true) 
+![Home Page](https://github.com/HoBichLien/traicay/blob/main/home.png?raw=true) 
 ![Shop Page](https://github.com/HoBichLien/traicay/blob/main/shop.png?raw=true)  
 ![Cart Page](https://github.com/HoBichLien/traicay/blob/main/cart.png?raw=true)  
 ![About Page](https://github.com/HoBichLien/traicay/blob/main/about.png?raw=true) 
