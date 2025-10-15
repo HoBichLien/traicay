@@ -1,6 +1,6 @@
 # 🍎 Fresh Fruits – Modern Responsive Fruit Shop Template
 
-![Logo][(assets/images/logo.png)](https://github.com/HoBichLien/traicay/blob/main/logo.png)
+![[Logo](https://github.com/HoBichLien/traicay/blob/main/logo.png)]
 
 ## 🌿 Overview
 **Fresh Fruits** is a clean, modern, and fully responsive website template for **fruit shops, organic stores, and healthy product businesses**.  
