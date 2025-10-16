@@ -1,3 +1,5 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 # 🍎 Webfruits – Modern Responsive Fruit Shop Template
 
 ![Logo](https://github.com/HoBichLien/traicay/blob/main/logo.png?raw=true)
