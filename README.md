@@ -26,18 +26,18 @@ Built with **HTML5, CSS, and JavaScript**, it’s easy to customize and ideal fo
 
 **(Replace these with your actual screenshots in `assets/images/screenshots/`)**
 
-![Home Page](https://github.com/HoBichLien/traicay/blob/main/home.png?raw=true) 
-![Shop Page](https://github.com/HoBichLien/traicay/blob/main/shop.png?raw=true)  
-![Cart Page](https://github.com/HoBichLien/traicay/blob/main/cart.png?raw=true)  
-![About Page](https://github.com/HoBichLien/traicay/blob/main/about.png?raw=true) 
-![Contact Page](https://github.com/HoBichLien/traicay/blob/main/contact.png?raw=true)  
-![Blog Page](https://github.com/HoBichLien/traicay/blob/main/blog.png?raw=true)
-![Wishlist Page](https://github.com/HoBichLien/traicay/blob/main/wishlist.png?raw=true) 
-![Login Page](https://github.com/HoBichLien/traicay/blob/main/login.png?raw=true)  
-![Register Page](https://github.com/HoBichLien/traicay/blob/main/register.png?raw=true)
-![Forgot-password Page](https://github.com/HoBichLien/traicay/blob/main/forgot-password.png?raw=true) 
-![Single-post Page](https://github.com/HoBichLien/traicay/blob/main/single-post.png?raw=true)  
-![Detail Page](https://github.com/HoBichLien/traicay/blob/main/detail.png?raw=true)
+![Home Page](https://github.com/HoBichLien/traicay/blob/main/webfruits/assets/images/screenshots/home.png?raw=true) 
+![Shop Page](https://github.com/HoBichLien/traicay/blob/main/webfruits/assets/images/screenshots/shop.png?raw=true)  
+![Cart Page](https://github.com/HoBichLien/traicay/blob/main/webfruits/assets/images/screenshots/cart.png?raw=true)  
+![About Page](https://github.com/HoBichLien/traicay/blob/main/webfruits/assets/images/screenshots/about.png?raw=true) 
+![Contact Page](https://github.com/HoBichLien/traicay/blob/main/webfruits/assets/images/screenshots/contact.png)?raw=true)  
+![Blog Page](https://github.com/HoBichLien/traicay/blob/main/webfruits/assets/images/screenshots/blog.png?raw=true)
+![Wishlist Page](https://github.com/HoBichLien/traicay/blob/main/webfruits/assets/images/screenshots/wishlist.png?raw=true) 
+![Login Page](https://github.com/HoBichLien/traicay/blob/main/webfruits/assets/images/screenshots/login.png?raw=true)  
+![Register Page](https://github.com/HoBichLien/traicay/blob/main/webfruits/assets/images/screenshots/register.png?raw=true)
+![Forgot-password Page](https://github.com/HoBichLien/traicay/blob/main/webfruits/assets/images/screenshots/forgot-password.png?raw=true) 
+![Single-post Page](https://github.com/HoBichLien/traicay/blob/main/webfruits/assets/images/screenshots/single-post.png?raw=true)  
+![Detail Page](https://github.com/HoBichLien/traicay/blob/main/webfruits/assets/images/screenshots/detail.png?raw=true)
 
 > Tip: Capture **full-page screenshots** using Chrome DevTools → `Capture full size screenshot` for the best results.
 
