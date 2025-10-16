@@ -46,7 +46,7 @@
 
 /* --- 1. Hero Section --- */
 .about-hero-section {
-    background: url('../images/banner3.jpg') no-repeat center center/cover; 
+    background: url('../images/banner/agriculture.jpg') no-repeat center center/cover; 
     height: 400px;
     display: flex;
     justify-content: center;
