@@ -2,8 +2,8 @@
 
 ![Logo](https://github.com/HoBichLien/traicay/blob/main/logo.png?raw=true)
 
-![Contruction].(https://traicay-five.vercel.app/documentation/documentation.html)
-
+## 📘 Documentation
+📗 [View Full Documentation](https://traicay-five.vercel.app/documentation/documentation.html)
 
 ## 🌿 Overview
 **Webfruits** is a clean, modern, and fully responsive website template for **fruit shops, organic stores, and healthy product businesses**.  
