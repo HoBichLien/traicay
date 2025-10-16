@@ -15,6 +15,9 @@ Built with **HTML5, CSS, and JavaScript**, it’s easy to customize and ideal fo
 - Clean, well-commented code  
 - Easy integration with any backend (Node.js, PHP, Flask/Django)  
 
+> ⚠️ Note: This is a **Frontend Only** template (HTML, CSS, JS).  
+> Backend features such as product management or authentication are not included.
+
 ---
 
 ## 📸 Screenshots
@@ -125,6 +128,7 @@ Images: Unsplash
 ##📄 License
 
 Released under the MIT License – free for personal and commercial use.
+See license.txt for full terms.
 
 ##📬 Support
 
