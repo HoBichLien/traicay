@@ -1,10 +1,10 @@
-# 🍎 Fresh Fruits – Modern Responsive Fruit Shop Template
+# 🍎 Webfruits – Modern Responsive Fruit Shop Template
 
 ![Logo](https://github.com/HoBichLien/traicay/blob/main/logo.png?raw=true)
 
 
 ## 🌿 Overview
-**Fresh Fruits** is a clean, modern, and fully responsive website template for **fruit shops, organic stores, and healthy product businesses**.  
+**Webfruits** is a clean, modern, and fully responsive website template for **fruit shops, organic stores, and healthy product businesses**.  
 Built with **HTML5, CSS, and JavaScript**, it’s easy to customize and ideal for beginners or developers who want a professional online fruit store.
 
 **Key highlights:**
@@ -82,7 +82,7 @@ Built with **HTML5, CSS, and JavaScript**, it’s easy to customize and ideal fo
        .then(data => renderProducts(data));
 ##📁 Folder Structure
 ```
-FreshFruits/
+webfruits/
 │
 ├── index.html
 ├── about.html
@@ -103,10 +103,8 @@ FreshFruits/
 │   ├── images/
 │   │   ├── logo.png
 │   │   ├── screenshots/
-│   │   │   ├── home.png
-│   │   │   ├── shop.png
-│   │   │   ├── cart.png
-│   │   │   └── ...
+│   │   ├── banners/
+│   │   ├── favicon/
 │   │   └── products/
 │
 └── documentation/
